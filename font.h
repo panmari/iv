@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <ft2build.h>
 #ifdef LINUX
-#include <freetype/freetype.h>
+#include <freetype.h>
 #endif
 #ifdef DARWIN
 #include <freetype.h>

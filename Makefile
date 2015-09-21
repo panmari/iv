@@ -82,10 +82,10 @@ ifeq ($(ARCH), Linux)
     CPPFLAGS += -DLINUX
     CPPFLAGS += -D_BSD_SOURCE
     CPPFLAGS += -D_POSIX_SOURCE -D_POSIX_C_SOURCE
-    CPPFLAGS += -I/usr/local/include -I/usr/local/include/freetype2
+    CPPFLAGS += -I/usr/local/include -I/usr/include/freetype2
 
     EXR_FLAGS += -I/usr/include/OpenEXR
-    GIF_LIBS = -lungif
+    GIF_LIBS = -lgif
 
     OPENGL_LIBS = -lglut -lGL -lGLU
     OPENAL_LIBS = -lalut -lopenal
